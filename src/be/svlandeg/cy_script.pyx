@@ -1,5 +1,6 @@
-def eval(x):
-    y = 0
+cpdef int eval_cy(int x):
+    cdef int y = 0
+    cdef int i
     for i in range(x):
         y += i
     return y
