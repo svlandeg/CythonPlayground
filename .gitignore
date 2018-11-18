@@ -1,0 +1,6 @@
+.idea/
+*.exp
+*.lib
+*.obj
+*.c
+*.pyd
